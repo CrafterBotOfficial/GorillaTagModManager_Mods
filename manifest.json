@@ -1,0 +1,80 @@
+[
+    {
+        "ModName": "Utilla",
+        "ModShortDescription": "Utilla is a library for Gorilla Tag that handles various room-based behaviours and most known for implementing custom game modes.",
+        "ModAuthor": "legoandmars",
+
+        "Url": "https://github.com/developer9998/Utilla.git",
+        "CommitHash": "3603e76",
+
+        "ThumbnailImageUrl": "https://raw.githubusercontent.com/CrafterBotOfficial/GorillaHands/fae5c3028a5082b55dbc08482c87533c7c388345/Marketing/Thumbnail.png",
+        "Hidden": true
+    },
+    {
+        "ModName": "Extenject",
+        "ModShortDescription": "",
+        "ModAuthor": "Auros",
+
+        "Url": "https://github.com/Auros/Bepinject/releases/download/1.0.1/Extenject.zip",
+        "CommitHash": "",
+
+        "ThumbnailImageUrl": "",
+        "Hidden": true
+    },
+    {
+        "ModName": "Bepinject",
+        "ModShortDescription": "",
+        "ModAuthor": "Auros",
+
+        "Url": "https://github.com/Auros/Bepinject/releases/download/1.0.1/Bepinject-Auros.zip",
+        "CommitHash": "",
+
+        "ThumbnailImageUrl": "",
+        "Hidden": true
+    },
+    {
+        "ModName": "ComputerInterface",
+        "ModShortDescription": "A Gorilla Tag library to interface with the gorilla computer",
+        "ModAuthor": "ToniMacaroni",
+
+        "Url": "https://github.com/DecalFree/ComputerInterface.git",
+        "CommitHash": "4c6e4dc",
+
+        "ThumbnailImageUrl": "https://static.wikia.nocookie.net/gorilla-tag-modding/images/1/15/Computer_interface.jpg/revision/latest/scale-to-width/360",
+        "Dependencies": "Bepinject,Extenject"
+    },
+    {
+        "ModName": "GorillaHands",
+        "ModShortDescription": "A Gorilla Tag mod based on the movement from Mystic Hands by Lyneca.",
+        "ModAuthor": "Crafterbot & Chin",
+
+        "Url": "https://github.com/CrafterBotOfficial/GorillaHands.git",
+        "CommitHash": "8ba9100",
+
+        "ThumbnailImageUrl": "https://raw.githubusercontent.com/CrafterBotOfficial/GorillaHands/fae5c3028a5082b55dbc08482c87533c7c388345/Marketing/Thumbnail.png",
+        "Dependencies": "Utilla"
+    },
+    {
+        "ModName": "Fall Monke",
+        "ModShortDescription": "FallMonke is a plugin/mod for Gorilla Tag. It adds a whole new gamemode to Gorilla Tag, inspired by the Hex-a-gone gamemode from Fall Guys.",
+        "ModAuthor": "Crafterbot & Chin",
+
+        "Url": "https://github.com/CrafterBotOfficial/FallMonke.git",
+        "CommitHash": "6e22c88",
+
+        "ThumbnailImageUrl": "https://github.com/CrafterBotOfficial/FallMonke/blob/master/Marketing/FallMonkeThumbnail.png?raw=true",
+        "Dependencies": "MonkeNotificationLib"
+    },
+    {
+        "ModName": "MonkeNotificationLib",
+        "ModShortDescription": "",
+        "ModAuthor": "Crafterbot",
+
+        "Url": "https://github.com/CrafterBotOfficial/MonkeNotificationLib.git", 
+        "CommitHash": "099c635",
+
+        "ThumbnailImageUrl": "https://github.com/CrafterBotOfficial/FallMonke/blob/master/Marketing/FallMonkeThumbnail.png?raw=true",
+        "Dependencies": "Utilla",
+        "Hidden": true
+    }
+]
